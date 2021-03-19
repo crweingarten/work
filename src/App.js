@@ -1,25 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+
+import './work.css'
+import Name from './pages/Name'
+import Contact from './pages/Contact'
+import Work from './pages/Work'
+import Fade from 'react-reveal/Fade'
+import 'bootstrap/dist/css/bootstrap.min.css'
+import {BrowserRouter} from "react-router-dom"
+
+
+
+
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <BrowserRouter>
+    <Name/>
+    <Fade bottom><div className="home-ital-sm pad" align="center"><span>↓</span></div></Fade>
+    <Fade bottom><Work /></Fade>
+    <Contact/>
+    </BrowserRouter>  );
 }
+
+
 
 export default App;

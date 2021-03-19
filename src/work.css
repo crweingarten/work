@@ -1,0 +1,62 @@
+.name-box {
+    padding: 200px 10px 10px 10px;
+    margin: auto;
+    width:fit-content; 
+    height:fit-content;
+    display: flex;
+    flex-direction: column}
+
+.name {
+    font-family: Tahoma;
+    font-size: 85px;
+    font-weight: 700;
+    padding: 0;
+    margin: 0}
+
+    
+.name:hover{color: mediumslateblue}
+
+.home-ital {
+    font-family: Times;
+    font-size: 30px;
+    font-style: italic;
+    opacity: 0.5;
+    margin: -30px 0px;
+    padding: 0}    
+
+.home-ital-sm {
+        font-family: Times;
+        font-size: 20px;
+        font-style: italic;
+        opacity: 0.5;
+        margin: -30px 0px;
+        padding: 0}   
+
+.work-box {margin: 100px 10px 10px 10px;}
+
+.work-contact { font-family: Tahoma;
+    font-size: 40px;
+    font-weight: 700;
+    }
+
+
+.work-contact:link {color: black}
+.work-contact:visited {color: black}
+.work-contact:hover {color: mediumslateblue}
+
+.no-hover:hover{color:black}
+
+.ul{border-bottom: 15px solid mediumslateblue;}
+
+.pad{ padding: 200px 10px 10px 10px}
+
+.img{
+    max-width: 100%;
+    max-height: 100%}
+
+.sub-ital {
+    font-family: Times;
+    font-size: 25px;
+    font-style: italic;
+    opacity: 0.5;
+    padding: 0}   
