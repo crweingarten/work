@@ -5,7 +5,7 @@ import Contact from './pages/Contact'
 import Work from './pages/Work'
 import Fade from 'react-reveal/Fade'
 import 'bootstrap/dist/css/bootstrap.min.css'
-// import {BrowserRouter} from "react-router-dom"
+import {BrowserRouter} from "react-router-dom"
 
 
 
@@ -14,12 +14,12 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 function App() {
 
   return (
-    <div>
+    <BrowserRouter>
     <Name/>
     <Fade bottom><div className="home-ital-sm pad" align="center"><span>↓</span></div></Fade>
     <Fade bottom><Work /></Fade>
     <Contact/>
-    </div>  );
+    </BrowserRouter>  );
 }
 
 
