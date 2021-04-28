@@ -18,7 +18,7 @@ function Work(){
 <div className="col-6"/>
 <div className="col-6 sub-ital mb-2" align="right">Comprehensive redesign and full admin overhaul for independent record label with 20+ years of history and at least one platinum band.</div>
 <div className="col-12" align="right"><span className="mr-3">
-    test site: <a href="https://ipecac.herokuapp.com/" className="mx-2 work-contact" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLaptopCode} /></a></span>
+    site: <a href="https://www.ipecac.com/" className="mx-2 work-contact" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faLaptopCode} /></a></span>
     github: <a href="https://github.com/crweingarten/ipecac" className="mx-2 work-contact" target="_blank" rel="noreferrer"><FontAwesomeIcon icon={faGithub} /></a></div>
 
 </div>
