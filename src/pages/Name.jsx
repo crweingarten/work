@@ -7,6 +7,7 @@ function Name(){
         <React.Fragment>
             <div class="container"></div>
             <div className="name-box pad" align="center">
+                {/* PLZ HOLD */}
             {/* <div className="home-ital-sm" align="left">click me<span>↓</span></div> */}
             <div className="name">CHRISTOPHER WEINGARTEN</div>
             <div className="home-ital" align="right">full stack web developer | reactJS | nodejs | design</div>
