@@ -1,14 +1,10 @@
-.container{
-    display: flex;
-    flex-direction: column
-}
-
 .name-box {
     padding: 200px 10px 10px 10px;
     margin: auto;
     width:fit-content; 
     height:fit-content;
-    }
+    display: flex;
+    flex-direction: column}
 
 .name {
     font-family: Tahoma;
@@ -64,6 +60,3 @@
     font-style: italic;
     opacity: 0.5;
     padding: 0}   
-
-
-    

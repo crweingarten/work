@@ -16,7 +16,7 @@ function App() {
   return (
     <BrowserRouter>
     <Name/>
-    <div className="home-ital-sm pad" align="center"><span>↓</span></div>
+    <Fade bottom><div className="home-ital-sm pad" align="center"><span>↓</span></div></Fade>
     <Fade bottom><Work /></Fade>
     <Contact/>
     </BrowserRouter>  );
